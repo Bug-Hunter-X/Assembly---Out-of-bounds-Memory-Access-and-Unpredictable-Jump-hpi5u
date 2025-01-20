@@ -1,0 +1,2 @@
+# Assembly Bug: Out-of-bounds Memory Access and Unpredictable Jump
+This repository demonstrates an uncommon bug in assembly code involving accessing memory outside of array bounds and jumping to a potentially unpredictable address.  The bug.asm file contains the erroneous code.  The bugSolution.asm file shows the corrected version. The bug is related to improper bounds checking before memory access and using an unvalidated address for jump instructions.
